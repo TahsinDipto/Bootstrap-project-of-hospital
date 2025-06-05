@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+}
+:root{
+    --white-color: rgb(255 255 255);
+    --green-color: rgb(14 159 110);
+    --light-green-color: rgb(18 180 139);
+    --green-hover-color : rgb(5 122 85);
+    --blue-background-color : rgb(32 64 102);
+    --blue-color : rgb(26 54 93 );
+    --blue-color-p : rgb(55 65 81);
+    --blue-color-p-light : rgb(75 85 99);
+    --border-color : rgb(229, 231, 235);
+    
+}
+
+
+
+
+
+/* nav-top */
+.nav-top-control{
+    background-color: rgb(11 36 65 );
+}
+.nav-top-control a{
+    font-size: 16px;
+}
+.nav-top-control a:hover{
+    text-decoration: underline;
+}
+.nav-top-control p{
+    color: #fff;
+    font-size: 16px;
+}
+/* nav-bottom */
+.nav-bottom-control{
+    padding: 12px 0px;
+}
+.nav-logo-control{
+    height: 64px;
+}
+.nav-btn-control{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+.nav-btn-control:hover{
+    background-color: var(--green-hover-color);
+}
+.nav-bottom-control ul a{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(55 65 81);
+}
+.nav-bottom-control ul a:hover{
+    color: var(--green-color);
+}
+.nav-btn-control {
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+    padding: 1rem 1.5rem;
+}
+.nav-btn-control:hover {
+    color: var(--white-color);
+    background-color: var(--green-hover-color);
+}
+/* Section-hero */
+.section-hero-control{
+    background-image: url(https://res.cloudinary.com/dtqvpdacj/image/upload/v1748325310/Thailands-Samitivej-Hospital-Dhaka-Bangladesh-Office-hero_uj4aoj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 128px 0;
+}
+.hero-left{
+    width: 618px;
+}
+.hero-welcome-text{
+    font-size: 20px;
+    color: var(--green-hover-color);
+    margin-bottom: 80px;
+}
+h1{
+    margin-bottom: 56px;
+    font-size: 48px;
+    color: var(--blue-color);
+    line-height: 1;
+}
+.hero-description{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 4rem;
+    color: var(--blue-color-p);
+}
+.hero-btn-control{
+    padding: 12px 24px;
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+.hero-btn-control:hover{
+    color: var(--white-color);
+    background-color: var(--green-hover-color);
+}
+.hero-right-control{
+    width: 604px;
+}
+#hero-carousel img{
+    height: 500px;
+    border-radius: 8px;
+}
+#hero-carousel button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+/* section-two */
+.section-two-control{
+    padding: 48px 0;
+}
+.section-two-control img{
+    width: 100%;
+    border-radius: 16px;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+.section-two-right-control{
+    padding-left: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.two-about-text{
+    color: var(--light-green-color);
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+.section-two-control h2{
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--blue-color);
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.two-h2-bottom-p{
+    font-weight: 600;
+    color: var(--blue-color-p);
+}
+.two-h2-bottom-div p{
+    color: var(--blue-color-p-light);
+    margin-bottom: 12px;
+}
+/* section-three */
+.section-three-control{
+    padding: 64px 0;
+    background-color: rgb(250, 250, 250);
+}
+.three-process-p{
+    color: var(--light-green-color);
+    font-size: 20px;
+    line-height: 28px;
+}
+.three-h3-control {
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--blue-color);
+    width: 474px;
+}
+.three-green-div{
+    width: 96px;
+    height: 2px;
+    background-color: var(--light-green-color);
+}
+.three-card-control{
+    width: 256px;
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: var(--white-color);
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+.three-card-control svg{
+    font-size: 36px;
+    color: var(--light-green-color) !important;
+    margin-bottom: 16px;
+}
+.three-card-control h6{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.three-card-control p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.three-card-p{
+    margin-bottom: 14px;
+}
+.three-hr-control {
+    width: 92%;
+    height: 1px;
+    margin: 40px auto;
+    margin-bottom: 48px !important;
+    color: #b2b3b5;
+}
+.three-bottom-p-control{
+    font-weight: 500;
+}
+.three-bottom-p-control a{
+    color: var(--light-green-color);
+}
+.three-bottom-p-control a:hover{
+    text-decoration: underline;
+}
+/* section-four */
+.section-four-control{
+    padding: 48px 0;
+    background-color: var(--blue-background-color);
+    text-align: center;
+}
+.section-four-control p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--white-color);
+}
+.section-four-control h4{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--white-color);
+}
+.section-four-bottom-div{
+    width: 80px;
+    border-bottom: 2px solid var(--white-color);
+}
+/* section-five */
+.section-five-control{
+    padding: 48px 0;
+}
+.five-cards-control{
+    gap: 24px;
+}
+.section-five-card-control {
+    width: 352px !important;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+.section-five-card-control svg{
+    color: var(--light-green-color )!important;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.section-five-card-control h6{
+    color: rgb(35 56 118);
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.section-five-card-control p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.section-five-hr-control {
+    width: 76%;
+    height: 1px;
+    margin: 40px auto;
+    margin-bottom: 48px !important;
+    color: #b2b3b5;
+}
+.section-five-bottom-p{
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.section-five-bottom-p a{
+    color: var(--light-green-color);
+}
+.section-five-bottom-p a:hover{
+    text-decoration: underline;
+}
+/* section-six */
+.section-six-control{
+    padding: 64px 0;
+    background-color: rgb(249 250 251);;
+}
+.six-gallery-p{
+    color: var(--light-green-color);
+    font-size: 20px;
+    line-height: 28px;
+}
+.six-h3-control {
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--blue-color);
+}
+.six-green-div{
+    width: 80px;
+    height: 2px;
+    background-color: var(--light-green-color);
+    margin-bottom: 40px;
+}
+.six-img-control{
+    gap: 16px !important;
+}
+.six-img-control div{
+    width: 276px;
+    height: 192px;
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.six-img-control div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    transition: all .3s linear;
+}
+.six-img-control div img:hover{
+    transform: scale(1.1);
+}
+/* section-seven */
+.section-seven-control{
+    padding: 80px 0;
+    background-color: var(--white-color);
+}
+.section-seven-control picture{
+    border: 1px solid var(--white-color);
+}
+.section-seven-control picture img{
+    width: 400px;
+    height: 400px;
+}
+.section-seven-main-div {
+    background-color: rgb(30 61 107);
+    padding: 48px 40px;
+    width: 666px;
+}
+.section-seven-svg-div {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6 148 162);
+    border-radius: 50%;
+}
+.section-seven-svg-div svg{
+    width: 24px;
+    height: 24px;
+    color: var(--white-color);
+}
+.seven-top-p{
+    font-size: 18px;
+    color: var(--white-color);
+}
+.section-seven-main-div h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(22 189 202);
+    margin-top: 24px;
+}
+.section-seven-white-line{
+    width: 48px;
+    height: 4px;
+    background-color: var(--white-color);
+    margin: 24px 0;
+}
+.seven-bottom-p{
+    font-size: 14px;
+    color: var(--white-color);
+    line-height: 1.625;
+}
+/* section-eight */
+.section-eight-control{
+    padding: 80px 0;
+    background-image: url(https://res.cloudinary.com/dtqvpdacj/image/upload/v1748340942/Thailands-Samitivej-Hospital-Dhaka-Bangladesh-Office-testmonial_beyksl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.eight-top-p{
+    color: var(--green-color);
+}
+.eight-top-h5{
+    color: rgb(31 41 55);
+    font-size: 36px;
+    margin: 8px 0;
+    line-height: 40px;
+}
+.eight-green-div{
+    width: 64px;
+    height: 4px;
+    background-color: var(--light-green-color);
+    margin-bottom: 48px;
+}
+.carousel-item-control-eight{
+    gap: 30px;
+}
+.carousel-item-control{
+    background-color: var(--white-color);
+    width: 545px;
+    height: 200px !important;
+    padding: 24px;
+    border-radius: 8px;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+    border: 1px solid var(--border-color);
+}
+.carousel-top-p-control{
+    font-size: 14px;
+    color: rgb(55 65 81);
+    line-height: 1.625;
+}
+.eight-carousel-bottom-div{
+    gap: 16px;
+}
+.eight-carousel-bottom-div h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(26 86 219);
+    margin-bottom: 0;
+}
+.eight-carousel-bottom-p{
+    font-size: 12px;
+    color: black;
+}
+.carousel-item-control img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/* section-nine */
+.section-nine-control{
+    padding: 40px 0;
+    background-color: rgb(30 58 95);
+}
+.nine-left-control {
+    width: 482px;
+    padding: 24px;
+    border-radius: 4px;
+    background-color: rgb(11 31 58);
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+.nine-left-control svg {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.nine-left-control h6{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--white-color);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.nine-left-control p{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: var(--white-color);
+}
+.nine-right-control {
+    width: 482px;
+    padding: 24px;
+    border-radius: 4px;
+    background-color: rgb(30 76 143);
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+.nine-right-control svg {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.nine-right-control h6{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--white-color);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.nine-right-control p{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: var(--white-color);
+}
+/* footer */
+.footer-top-control{
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgb(11 31 58);
+}
+.footer-left-control{
+    width: 288px;
+    padding: 16px;
+    background-color: var(--white-color);
+}
+.footer-left-control img{
+    width: 160px;
+    margin-bottom: 16px;
+}
+.footer-left-control p {
+    color: rgb(122 122 122);
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.footer-social-icon-control{
+    gap: 8px;
+}
+.footer-social-icon{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(32 64 102);
+    color: var(--white-color);
+    border-radius: 4px;
+}
+.footer-social-icon:hover{
+    background-color: rgb(30 76 143);
+}
+.footer-social-icon i{
+    font-size: 14px;
+}
+footer ul li a{
+    color: rgb(209 213 219);
+    font-size: 14px;
+}
+.footer-ul-one-control a:hover{
+    color: rgb(5 122 85);
+}
+.footer-bottom-ul-h-control{
+    color: var(--white-color);
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.footer-bottom-control{
+    background-color: rgb(30 58 95);
+    padding: 16px;
+    color: rgb(209 213 219);
+    font-size: 12px;
+}
+.footer-bottom-left-a{
+    color: rgb(22 189 202);
+}
+.footer-bottom-right-a{
+    color: rgb(249 128 128);
+}
+/* right-absolut */
+.right-absolute-control{
+    background-color: rgb(6 148 162 );
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: fixed;
+    bottom: 32px;
+    right: 16px;
+}
+.right-absolute-control a{
+    color: var(--white-color);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
