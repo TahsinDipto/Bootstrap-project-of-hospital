@@ -1,0 +1,110 @@
+@media (max-width:1023px) {
+    /* section-three */
+    .three-card-control {
+        width: 47%;
+    }
+    /* section-five */
+    .section-five-card-control{
+        width: 47% !important;
+    }
+    /* section-seven */
+    .section-seven-control .container-fluid{
+        flex-direction: column;
+    }
+    .section-seven-main-div {
+        width: 100%;
+    }
+}
+@media (max-width:992px) {
+    /* nav */
+    .nav-top-control a{
+        font-size: 12px;
+    }
+    .nav-top-control p{
+        font-size: 12px;
+    }
+    .nav-btn-control{
+        font-size: 14px;
+        width: 100%;
+        text-align: start;
+        padding: 8px 16px;
+    }
+    /* section-hero */
+    .hero-btn-control{
+        margin-bottom: 40px;
+    }
+    /* section-two */
+    .section-two-right-control{
+        margin-top: 64px;
+        padding: 0;
+    }
+    /* footer */
+}
+@media (max-width:767px) {
+    /* section-hero */
+    .hero-welcome-text{
+        margin-bottom: 16px;
+    }
+    .section-hero-control h1{
+        font-size: 36px;
+        margin-bottom: 16px;
+        line-height: 40px;
+    }
+    .hero-description{
+        margin-bottom: 14px;
+        line-height: 24px;
+    }
+    /* section-two */
+    .section-two-right-control h2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    /* section-six */
+    .six-img-control div{
+        width: 47%;
+    }
+    /* section-nine */
+    .nine-left-control{
+        width: 100%;
+    }
+    .nine-right-control{
+        width: 100%;
+    }
+    /* footer */
+    .footer-left-control{
+        width: 100%;
+    }
+    .footer-top-control .container-fluid{
+        gap: 32px;
+    }
+    footer ul {
+        width: 100%;
+    }
+}
+@media (max-width:639px) {
+    /* section-three */
+    .three-card-control {
+        width: 100%;
+    }
+    /* section-five */
+    .section-five-card-control{
+        width: 100% !important;
+    }
+    /* section-six */
+    .six-img-control div{
+        width: 100%;
+    }
+}
+@media (max-width:520px) {
+    /* section-three */
+    .three-h3-control{
+        width: 100%;
+    }
+}
+@media (max-width:400px) {
+    /* section-seven */
+    .section-seven-control picture img {
+        width: 100%;
+        height: auto;
+    }
+}
