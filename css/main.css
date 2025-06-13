@@ -118,8 +118,7 @@ ul, li{
 .hero-right-control{
     width: 604px;
 }
-#hero-carousel img{
-    height: 500px;
+#hero-carousel img {
     border-radius: 8px;
 }
 #hero-carousel button{
