@@ -1,15 +1,122 @@
-
-
-
-
-
-
-
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.hero-section-control p{
+    color: var(--blue-color-p);
+}
+input, button, select, textarea{
+    border: none;
+    outline: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+}
+:root{
+    --white-color: rgb(255 255 255);
+    --green-color: rgb(14 159 110);
+    --light-green-color: rgb(18 180 139);
+    --green-hover-color : rgb(5 122 85);
+    --blue-background-color : rgb(32 64 102);
+    --blue-color : rgb(26 54 93 );
+    --blue-text-color : rgb(26 86 219 );
+    --blue-color-p : rgb(55 65 81);
+    --blue-color-p-light : rgb(75 85 99);
+    --border-color : rgb(229, 231, 235);
+    --black-color: rgb(31 41 55);
+}
+/* nav-top */
+.nav-top-control{
+    background-color: rgb(11 36 65 );
+}
+.nav-top-control a{
+    font-size: 16px;
+}
+.nav-top-control a:hover{
+    text-decoration: underline;
+}
+.nav-top-control p{
+    color: #fff;
+    font-size: 16px;
+}
+/* nav-bottom */
+.nav-bottom-control{
+    padding: 12px 0px;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);   
+}
+.nav-logo-control{
+    height: 64px;
+}
+.nav-btn-control{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+.nav-btn-control:hover{
+    background-color: var(--green-hover-color);
+}
+.nav-bottom-control ul a{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(55 65 81);
+}
+.nav-bottom-control ul a:hover{
+    color: var(--green-color);
+}
+.nav-btn-control {
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+    padding: 1rem 1.5rem;
+}
+.nav-btn-control:hover {
+    color: var(--white-color);
+    background-color: var(--green-hover-color);
+}
+/* section-hero */
+.hero-section-control{  
+    background-color: rgb(249 250 251);
+    padding: 40px 32px;
+}
+.hero-section-control a{  
+    color: var(--blue-color-p);
+}
+.top-h{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--green-color);
+    margin-bottom: 6px;
+    padding: 40px 0;
+}
+.hero-section-control h2{
+    color: var(--green-color);
+    margin: 32px 0 16px 0;
+}
+.hero-ul-control{
+    padding: 0;
+}
+.hero-ul-control li{
+    list-style: disc;
+    list-style-position: inside;
+    color: var(--blue-color-p);
+}
+.hero-bottom-control{
+    background-color: rgb(255 255 255);
+    border: 1px solid rgb(175 236 239);
+    border-radius: 4px;
+}
+.hero-bottom-control a{
+    color: var(--green-color);
+}
 /* footer */
 .footer-top-control{
     width: 100%;
@@ -94,4 +201,31 @@ footer ul {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+/* responsive */
+@media (max-width: 992px) {
+    .footer-left-control img{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    /* footer */
+    .footer-left-control{
+        width: 100%;
+    }
+    .footer-top-control .container-fluid{
+        gap: 32px;
+    }
+    footer ul {
+        width: 100%;
+    }
+    .footer-left-control img{
+        width: 160px;
+    }
+}
+@media (max-width: 376px) {
+    .hero-bottom-center-p{
+        display: flex;
+        flex-direction: column;
+    }
 }
