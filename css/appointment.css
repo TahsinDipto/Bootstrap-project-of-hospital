@@ -320,7 +320,6 @@ footer ul {
     border-radius: 50%;
 }
 /* responsive */
-/* section-two-collapse-items */
 @media (max-width: 1400px) {
     .three-btn-controller{
         gap: 16px;
@@ -397,10 +396,3 @@ footer ul {
         width: 100%;
     }
 }
-
-
-
-
-
-
-
